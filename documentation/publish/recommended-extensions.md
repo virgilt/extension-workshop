@@ -1,8 +1,8 @@
 ---
 layout: sidebar
 title: Recommended extensions
-permalink: /documentation/publish/recommended-extensions
-published: false
+permalink: /documentation/publish/recommended-extensions/
+published: true
 topic: Publish
 tags: [promote, recommended]
 contributors: [devaneymoz]

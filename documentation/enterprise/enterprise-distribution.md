@@ -2,7 +2,7 @@
 layout: sidebar
 title: Enterprise distribution
 permalink: /documentation/enterprise/enterprise-distribution/
-published: false
+published: true
 topic: Enterprise
 tags: [enterprise, policies, distribution, guide, installation]
 contributors:
@@ -116,15 +116,13 @@ It is safe to modify the Registry keys while Firefox is running.
 1. Ensure the add-on has an add-on ID, by including the following to its manifest.json file, replacing _your-add-on-name@your-domain.com_ with a suitable ID for your add-on:
 
 <!-- Syntax Highlighting -->
-
 {% highlight javascript linenos %}
 "applications": {
-"gecko": {
-"id": "your-add-on-name@your-domain.com"
-}
+  "gecko": {
+    "id": "your-add-on-name@your-domain.com"
+  }
 }
 {% endhighlight %}
-
 <!-- END: Syntax Highlighting -->
 
 An email address style ID is recommended.
@@ -269,7 +267,7 @@ defaultPref("extensions.enabledScopes", 0b1111);
 
 {% capture note %}
 
-According to [this page](www.favbrowser.com/how-to-create-a-new-default-firefox-experience-in-your-enterprise/) (dated: September 28, 2012), "_“You cannot set this preference remotely using autoconfig files._" Which recommends you only set these preference in a local autoconfig file. If this is wrong info please adjust or remove this note.
+According to [this page](http://www.favbrowser.com/how-to-create-a-new-default-firefox-experience-in-your-enterprise/) (dated: September 28, 2012), "_“You cannot set this preference remotely using autoconfig files._" Which recommends you only set these preference in a local autoconfig file. If this is wrong info please adjust or remove this note.
 
 {% endcapture %}
 {% include modules/note.html

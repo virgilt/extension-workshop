@@ -2,7 +2,7 @@
 layout: sidebar
 title: Testing persistent and restart features
 permalink: /documentation/develop/testing-persistent-and-restart-features/
-published: false
+published: true
 topic: Develop
 tags:
   [
@@ -59,9 +59,9 @@ An extension can be assigned an add-on ID using the manifest.json file `"applica
 
 {% highlight javascript linenos %}
 "applications": {
-"gecko": {
-"id": "addon@example.com"
-}
+  "gecko": {
+    "id": "addon@example.com"
+  }
 }
 {% endhighlight %}
 

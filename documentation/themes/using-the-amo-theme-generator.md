@@ -2,7 +2,7 @@
 layout: sidebar
 title: Using the AMO theme generator
 permalink: /documentation/themes/using-the-amo-theme-generator/
-published: false
+published: true
 topic: Themes
 tags: [add-on, Add-ons, AMO, Firefox, Guide, Tutorial, themes]
 contributors: [irenesmith, andrewtruongmoz, caitmuenster, shiy23]
@@ -45,7 +45,7 @@ Otherwise, if you prefer to self-distribute your theme, go to the [unlisted Them
 
 {% capture note %}
 
-**Note:** You can create a more elaborate theme, for example a theme that uses multiple images, by creating a Static Theme. To get started with Static Themes, take a look at: [Theme concepts](/documentation/publish/theme-concepts).
+**Note:** You can create a more elaborate theme, for example a theme that uses multiple images, by creating a Static Theme. To get started with Static Themes, take a look at: [Theme concepts](https://developer.mozilla.org/docs/Mozilla/Add-ons/Themes/Theme_concepts).
 
 {% endcapture %}
 {% include modules/note.html
